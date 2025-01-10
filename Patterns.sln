@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{47C54923-3E3C-4451-A1B7-AC5DDA52EED9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{5B510F2A-B658-44E7-AD99-58B0291500ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{69DF806F-AAB7-4C48-AFD9-750D3D244CED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{733F5EE8-72CF-4BC2-816A-CABDD58B3DC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B510F2A-B658-44E7-AD99-58B0291500ED} = {47C54923-3E3C-4451-A1B7-AC5DDA52EED9}
+		{69DF806F-AAB7-4C48-AFD9-750D3D244CED} = {47C54923-3E3C-4451-A1B7-AC5DDA52EED9}
+		{733F5EE8-72CF-4BC2-816A-CABDD58B3DC4} = {47C54923-3E3C-4451-A1B7-AC5DDA52EED9}
+	EndGlobalSection
+EndGlobal
