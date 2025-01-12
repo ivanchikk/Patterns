@@ -4,16 +4,17 @@ class Program
 {
     private static void Main(string[] args)
     {
-        Creator creator = new ConcreteCreator1();
-        var product1 = creator.FactoryMethod();
-        Console.WriteLine(product1.Operation());
-        Console.WriteLine(creator.SomeOperation());
+        ClientCode(new ConcreteCreator1());
 
         Console.WriteLine();
 
-        creator = new ConcreteCreator2();
-        var product2 = creator.FactoryMethod();
-        Console.WriteLine(product2.Operation());
+        ClientCode(new ConcreteCreator2());
+    }
+
+    private static void ClientCode(Creator creator)
+    {
+        var product = creator.FactoryMethod();
+        Console.WriteLine(product.Operation());
         Console.WriteLine(creator.SomeOperation());
     }
 }
